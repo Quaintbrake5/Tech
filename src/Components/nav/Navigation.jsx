@@ -86,7 +86,7 @@ const Header = () => {
                 <li>
                   <div className='header-login'>
                     <div className='login' role='menu'>
-                      <a href='#' role='menuitem' title='Log In'>
+                      <a href='#' role='menuitem' title='Tour Review'>
 
                         <div className='login-text'>Trip Catalogue</div>
                       </a>
@@ -97,7 +97,7 @@ const Header = () => {
                 {/* Bag */}
                 <li>
                   <div className='header-mini-bag' role='menu'>
-                  <a href='#' role='menuitem' className='minibag' aria-controls='minibag-flyout-items' title='Store'>
+                  <a href='#' role='menuitem' className='minibag' aria-controls='minibag-flyout-items' title='Tour Review'>
 
                     <div className='minibag-text'>Tour Review </div>
                   </a>
