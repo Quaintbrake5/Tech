@@ -30,8 +30,19 @@ const Header = (props) => {
                   </div>
                 </li> */}
 
+                {/* Logo */}
+                <li>
+                  <div className='header-logo-wrapper'>
+                    <div className='header-logo'>
+                      <a className='logo' href='/'>
+                        <img alt='Logo' src= '/src/assets/Logo.png'></img>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+
                 {/* Search Box */}
-                {/* <li>
+                <li>
                   <div className='search-box'>
                     <form className='search-form' role='search' action=''>
                         <input id='search' type='search' className='search-query' aria-label='Search'  role='button' autoComplete='off' placeholder='Search...'></input>
@@ -42,17 +53,6 @@ const Header = (props) => {
                           </svg>
                         </button>
                     </form>
-                  </div>
-                </li> */}
-
-                {/* Logo */}
-                <li>
-                  <div className='header-logo-wrapper'>
-                    <div className='header-logo'>
-                      <a className='logo' href='/'>
-                        <img alt='Logo' src= '/src/assets/Logo.png'></img>
-                      </a>
-                    </div>
                   </div>
                 </li>
 
@@ -88,7 +88,7 @@ const Header = (props) => {
                     <div className='login' role='menu'>
                       <a href='#' role='menuitem' title='Log In'>
 
-                        <div className='login-text'>Log In</div>
+                        <div className='login-text'>Trip Catalogue</div>
                       </a>
                     </div>
                   </div>
@@ -99,7 +99,7 @@ const Header = (props) => {
                   <div className='header-mini-bag' role='menu'>
                   <a href='#' role='menuitem' className='minibag' aria-controls='minibag-flyout-items' title='Store'>
 
-                    <div className='minibag-text'>Store</div>
+                    <div className='minibag-text'>Tour Review </div>
                   </a>
                   </div>
                 </li>
