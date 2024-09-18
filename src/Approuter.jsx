@@ -1,10 +1,11 @@
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import Navigation from './Components/nav/Navigation'
 
 const Approuter = () => {
   return (
     <>
         <Router>
-            {/* <Navigation/> */}
+            <Navigation/>
             <Routes>
                 <Route path="/">
                     
