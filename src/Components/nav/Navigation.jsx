@@ -2,7 +2,7 @@
 import React, {useState} from 'react'
 import "../nav/Navigation.css"
 
-const Header = (props) => {
+const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [isSidePanelOpen, setIsSidePanelOpen] = useState(false);
   
