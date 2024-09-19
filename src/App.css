@@ -1,0 +1,11 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css);
+@import url('https://fonts.cdnfonts.com/css/uefa-supercup');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'UEFA Supercup', sans-serif;
+}
+
