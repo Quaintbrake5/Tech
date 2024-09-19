@@ -47,21 +47,6 @@ function Footer() {
                         <h2 className='title'>CONTACT US</h2>
                         <ul>
                             <li>
-                                <a href="/contact-us/agency-banking" className="link">Agent Banking Details</a>
-                            </li>
-                            <li>
-                                <a href="/contact-us/biometrics-enrollment-branches" className="link">Biometrics Enrollment</a>
-                            </li>
-                            <li>
-                                <a href="/contact-us/branch-atm-locator" className="link">Branch &amp; ATM Locator</a>
-                            </li>
-                            <li>
-                                <a href="/contact-us/branches-with-wi-fi" className="link">Branches With Wi-Fi</a>
-                            </li>
-                            <li>
-                                <a href="/contact-us/my-access" className="link">My Access</a>
-                            </li>
-                            <li>
                                 <a href="/contact-us/we-care" className="link">We Care</a>
                             </li>
                         </ul>
@@ -71,25 +56,10 @@ function Footer() {
                         <h2 className='title'>QUICK LINKS</h2>
                         <ul>
                             <li>
-                                <a href="/help/frequently-asked-questions" className="link">Access Online</a>
-                            </li>
-                            <li>
-                                <a href="/anti-money-laundering" className="link">Anti-Money Laundering</a>
-                            </li>
-                            <li>
                                 <a href="/support-center" className="link">Support Center</a>
                             </li>
                             <li>
                                 <a href="/help/download-center" className="link">Download Center</a>
-                            </li>
-                            <li>
-                                <a href="/help/form-m-rates" className="link">Form M Rates</a>
-                            </li>
-                            <li>
-                                <a href="/help/online-security-tips" className="link">Online Security Tips</a>
-                            </li>
-                            <li>
-                                <a href="/help/scam-alert" className="link">Scam Alert</a>
                             </li>
                         </ul>
                     </div>
