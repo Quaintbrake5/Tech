@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
-import Navigation from './Navigation'; // Adjust import as needed
-import tripData from '../JSON/tripData.json'; // Adjust path accordingly
+import Navigation from './Navigation';
+import tripData from '../JSON/tripData.json';
 import './styles/Tripcatalogue.css'
 
 const TripCatalogue = () => {
