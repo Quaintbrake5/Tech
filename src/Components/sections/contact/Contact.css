@@ -1,0 +1,70 @@
+h2{
+    font-size: 60px;
+    margin-top: 180px;
+    text-align: center;
+    color: #004E79;
+}
+
+.contact_container{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact_container .box{
+    border: 1px solid whitesmoke;
+    width: 330px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.contact_container .box:hover{
+    box-shadow: 1px 1px 1px 1px gainsboro;
+}
+
+.icon1{
+    font-size: 70px;
+    color: #A16642;
+    margin-left: 123px;
+    margin-top: 10px;
+}
+
+.icon2{
+    font-size: 70px;
+    color: #004E79;
+    margin-left: 123px;
+    margin-top: 10px;
+}
+
+.icon3{
+    font-size: 70px;
+    color: #A16642;
+    margin-left: 123px;
+    margin-top: 10px;
+}
+
+.info11{
+    font-size: 20px;
+    color: #004E79;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 95px;
+}
+
+.info1{
+    font-size: 20px;
+    color: #004E79;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 75px;
+}
+
+.contact_info{
+    font-size: 15px;
+    color: #004E79;
+    font-weight: 500;
+    margin-top: 15px;
+    text-align: center;
+}
+
