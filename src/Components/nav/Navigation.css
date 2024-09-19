@@ -6,6 +6,7 @@
   }
   
   .header-section {
+    
     width: 100%;
     position: fixed;
     top: 0; /* Fix the header at the top */
@@ -272,7 +273,7 @@
 
    
 .search-box input {
-  width: calc(100% - 15px);
+  width: 320px;
   height: 44px;
   position: relative;
   border: 1px solid #e9e3de;
@@ -301,8 +302,6 @@
 .search-box{
   display: flex;
   margin-left: -400px;
-  padding-right: 100px;
-  align-items: center;
   gap: 20px;
 }
 
@@ -342,8 +341,8 @@
 }
 
 .search-box button svg{
-  margin-top: 7px;
-  margin-left: 5px;
+  margin-top: 9px;
+  margin-left: 8px;
 }
 
 .hamburger-content-lower{
