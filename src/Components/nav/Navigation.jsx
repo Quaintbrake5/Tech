@@ -62,8 +62,7 @@ const Header = () => {
                 <li>
                   <div className='header-about-us'>
                     <div className='about'>
-                      <a href='#' title='About Us'>
-
+                      <a href= '/' title='About Us'>
                         <div className='about-text'>About Us</div>
                       </a>
                     </div>
@@ -74,7 +73,7 @@ const Header = () => {
                 <li>
                   <div className='header-contact-us'>
                     <div className='contact'>
-                      <a href='#' title='Contact Us'>
+                      <a href= '../sections/contact/Contact.jsx' target='_blank' title='Contact Us'>
 
                         <div className='contact-text'>Contact Us</div>
                       </a>

@@ -9,7 +9,8 @@ const Approuter = () => {
             <Navigation/>
             <HeroSection/>
             <Routes>
-                <Route path="/">
+                <Route path="">
+
                     
                 </Route>
             </Routes>
