@@ -1,12 +1,11 @@
-import './App.css'
+// import './App.css'
+import Approuter from './Approuter'
 
 function App() {
 
   return (
     <>
-      
       <Approuter/>
-       
     </>
   );
 };
