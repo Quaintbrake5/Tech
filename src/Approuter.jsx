@@ -1,4 +1,5 @@
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import Footer from "./Components/footer/Footer";
 import Navigation from './Components/nav/Navigation'
 import HeroSection from "./Components/Hero/HeroSection";
 import About from "./Components/sections/about/About";
@@ -14,6 +15,7 @@ const Approuter = () => {
             <Navigation/>
             <Routes>
                 <Route path="/">
+                   
                     <Route path="/" index element={<HeroSection/>}/>
                     <Route path="/about" element={<About/>}/>
                     <Route path="/contact" element={<Contact/>}/>
@@ -21,6 +23,7 @@ const Approuter = () => {
                     <Route path="/tourreview" element={<Tourreview/>}/>
                 </Route>
             </Routes>
+            <Footer/>
         </Router>
     </>
   );
