@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, {useState} from 'react'
 import "../nav/Navigation.css"
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -62,9 +63,13 @@ const Header = () => {
                 <li>
                   <div className='header-about-us'>
                     <div className='about'>
-                      <a href= '/' title='About Us'>
+
+                      <Link to='/about'>
+
                         <div className='about-text'>About Us</div>
-                      </a>
+                        
+                      </Link>
+
                     </div>
                   </div>
                 </li>
@@ -73,10 +78,13 @@ const Header = () => {
                 <li>
                   <div className='header-contact-us'>
                     <div className='contact'>
-                      <a href= '../sections/contact/Contact.jsx' target='_blank' title='Contact Us'>
+
+                      <Link to='/contact'>
 
                         <div className='contact-text'>Contact Us</div>
-                      </a>
+
+                      </Link>
+
                     </div>
                   </div>
                 </li>
@@ -85,10 +93,13 @@ const Header = () => {
                 <li>
                   <div className='header-login'>
                     <div className='login' role='menu'>
-                      <a href='#' role='menuitem' title='Tour Review'>
+                      
+                      <Link to='/tripcatalogue'>
 
                         <div className='login-text'>Trip Catalogue</div>
-                      </a>
+
+                      </Link>
+
                     </div>
                   </div>
                 </li>
@@ -96,10 +107,13 @@ const Header = () => {
                 {/* Bag */}
                 <li>
                   <div className='header-mini-bag' role='menu'>
-                  <a href='#' role='menuitem' className='minibag' aria-controls='minibag-flyout-items' title='Tour Review'>
+
+                  <Link to='/tourreview'>
 
                     <div className='minibag-text'>Tour Review </div>
-                  </a>
+
+                  </Link>
+
                   </div>
                 </li>
                 </div>
@@ -112,4 +126,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;

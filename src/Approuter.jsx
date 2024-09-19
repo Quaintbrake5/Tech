@@ -1,17 +1,24 @@
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Navigation from './Components/nav/Navigation'
 import HeroSection from "./Components/Hero/HeroSection";
+import About from "./Components/sections/about/About";
+import Contact from "./Components/sections/contact/Contact";
+import Tripcatalogue from "./Components/sections/tripcatalogue/Tripcatalogue";
+import Tourreview from './Components/sections/tourreview/Tourreview'
+
 
 const Approuter = () => {
   return (
     <>
         <Router>
             <Navigation/>
-            <HeroSection/>
             <Routes>
-                <Route path="">
-
-                    
+                <Route path="/">
+                    <Route path="/" index element={<HeroSection/>}/>
+                    <Route path="/about" element={<About/>}/>
+                    <Route path="/contact" element={<Contact/>}/>
+                    <Route path="/tripcatalogue" element={<Tripcatalogue/>}/>
+                    <Route path="/tourreview" element={<Tourreview/>}/>
                 </Route>
             </Routes>
         </Router>
