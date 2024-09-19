@@ -20,7 +20,7 @@ function Footer() {
                                     <a href="" className="link">Our Vision</a>
                                 </li>
                                 <li>
-                                    <a href="" className="link">Meet the team Team</a>
+                                    <a href="" className="link">Meet the Team</a>
                                 </li>
 
                             </ul>
