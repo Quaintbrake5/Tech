@@ -1,22 +1,11 @@
-/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import './hero.css'
+import './destination.css'
 
-const HeroSection = () => {
+const Destination = () => {
   return (
     <>
-    <section className="hero">
-      <div className="hero-overlay">
-        <div className="hero-content">
-          <h1 className="hero-title">Let's Take You There</h1>
-          <p className="hero-subtitle">Discover beautiful destinations, cultures, and experiences.</p>
-          <a href="#learn-more" className="hero-btn" id='learn-more'>Learn More</a>
-        </div>
-      </div>
-    </section>
-
-    <section className='destination' id='learn-more'>
+        <section className='destination' id='destination'>
             <div className='destination-container'>
                 <div className='destination-header'>
                     <h2>Your destination. Our expertise.</h2>
@@ -74,4 +63,4 @@ const HeroSection = () => {
   )
 }
 
-export default HeroSection
+export default Destination

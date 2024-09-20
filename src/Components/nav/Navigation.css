@@ -22,9 +22,9 @@
     display: block;
     top: 0;
     background-color: #fff;
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    background-color: rgb(255, 255, 255, 0.3);
+    background-color: rgb(255, 255, 255, 0.3); */
   }
   
   .header-content .list {
