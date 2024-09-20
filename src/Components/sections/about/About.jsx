@@ -27,7 +27,7 @@ function About() {
                 experiences to the table. Together, we work towards achieving our goals
                 and delivering exceptional results.
             </p>
-            <img src="https://via.placeholder.com/600x400" alt="Team" className="about-us-image" />
+            <img src="/src/assets/Team.jpg" alt="Team" className="about-us-image" />
         </div>
 
     </>
