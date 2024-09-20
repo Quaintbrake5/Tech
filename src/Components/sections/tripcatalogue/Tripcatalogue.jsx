@@ -65,7 +65,7 @@ const tripData = [
         id: 5,
         location: "Rome, Italy",
         popularity: 9.2,
-        imageUrl: "https://example.com/images/rome.jpg",
+        imageUrl: "/src/assets/Rome.jpeg",
         famousActivities: [
             "Explore the Colosseum",
             "Visit the Vatican and St. Peter's Basilica",
@@ -79,7 +79,7 @@ const tripData = [
         id: 6,
         location: "Cape Town, South Africa",
         popularity: 8.7,
-        imageUrl: "https://example.com/images/capetown.jpg",
+        imageUrl: "/src/assets/Cape Town.jpeg",
         famousActivities: [
             "Visit Table Mountain",
             "Explore the Cape of Good Hope",
@@ -93,7 +93,7 @@ const tripData = [
         id: 7,
         location: "Sydney, Australia",
         popularity: 8.9,
-        imageUrl: "https://example.com/images/sydney.jpg",
+        imageUrl: "/src/assets/Sydney.jpg",
         famousActivities: [
             "See the Sydney Opera House",
             "Walk across the Sydney Harbour Bridge",

@@ -17,42 +17,50 @@ const Destination = () => {
 
                 <div className='destination-tiles'>
                     <div className='tile-section'>
-                        <div className='tile-image'>
-                            <a className='tile-link' href=''>
-                                <div>
-                                <img src='/src/assets/Shibuya crossing.jpg' alt='Tokyo, Japan'></img>
-                                </div>
+                        <div className='card'>
+                            <div className='tile-image'>
+                                <div className='tile-link'>
+                                    <div>
+                                    <img src='/src/assets/Shibuya crossing.jpg' alt='Tokyo, Japan'></img>
+                                    </div>
 
-                                <div className='tile-header'>
-                                <span>Tokyo</span>
+                                    <div className='tile-header'>
+                                    <span>Tokyo</span>
+                                    </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
+
                         <br/>
 
-                        <div className='tile-image'>
-                            <a className='tile-link' href=''>
-                                <div>
-                                    <img src='/src/assets/Times square.jpg' alt='New York, USA'></img>
-                                </div>
+                        <div className='card'>
+                            <div className='tile-image'>
+                                <div className='tile-link'>
+                                    <div>
+                                        <img src='/src/assets/Times square.jpg' alt='New York, USA'></img>
+                                    </div>
 
-                                <div className='tile-header'>
-                                    <span>New York</span>
+                                    <div className='tile-header'>
+                                        <span>New York</span>
+                                    </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
+
                         <br/>
 
-                        <div className='tile-image'>
-                            <a className='tile-link' href=''>
-                                <div>
-                                    <img src='/src/assets/Taj Mahal.jpg' alt='Agra, India'></img>
-                                </div>
+                        <div className='card'>
+                            <div className='tile-image'>
+                                <div className='tile-link'>
+                                    <div>
+                                        <img src='/src/assets/Taj Mahal.jpg' alt='Agra, India'></img>
+                                    </div>
 
-                                <div className='tile-header'>
-                                    <span>Agra</span>
+                                    <div className='tile-header'>
+                                        <span>Agra</span>
+                                    </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                         
                     </div>
