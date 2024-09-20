@@ -1,5 +1,5 @@
 .footer{
-    background-color: #014086;
+    background-color: rgb(1,64,134);
     padding-left: 160px;
     padding-right: 160px;
     padding-top: 80px;
@@ -10,7 +10,7 @@
     padding: 5rem 0 3rem;
     overflow: hidden;
     background-size: contain;
-    
+    border-top-color: black;
 }
 
 .footer-container{
@@ -34,14 +34,34 @@
     gap: 15px;
 }
 
-.footer a{
-    color: #ffffff;
-    font-weight: 300;
+.footer-links-table ul{
+    list-style: none;
 }
 
-.footer h2{
-    font-size: 18px;
-    font-weight: 500;
+.footer-links-table ul li{
+    color: black;
+}
+
+.footer-links-table ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    
+}
+
+.footer a{
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.footer-links-table .footer-links .title{
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    color: #ffffff;
 }
 
 .social-links{
@@ -134,4 +154,26 @@
 .icons svg{
     width: 24px;
     height: 24px;
+    color: black;
+}
+
+.icons svg:hover{
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .footer-links-table {
+        flex-direction: column; /* Stack items on smaller screens */
+        align-items: center; /* Center items */
+    }
+
+    .social-links {
+        flex-direction: column; /* Stack phone and middle text */
+        align-items: center; /* Center items */
+        margin-top: 1rem; /* Reduced margin for a tighter layout */
+    }
+
+    .footer-container {
+        padding: 0 1rem; /* Adjust padding for smaller screens */
+    }
 }
