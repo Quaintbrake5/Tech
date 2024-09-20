@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import './Tripcatalogue.css'
 
 // Sample data
 const tripData = [
@@ -22,7 +23,7 @@ const tripData = [
         id: 2,
         location: "Bali, Indonesia",
         popularity: 9.0,
-        imageUrl: "https://example.com/images/bali.jpg",
+        imageUrl: "/src/assets/Bali.jpg",
         famousActivities: [
             "Relax on Kuta Beach",
             "Visit the Ubud Monkey Forest",
@@ -36,7 +37,7 @@ const tripData = [
         id: 3,
         location: "Tokyo, Japan",
         popularity: 9.3,
-        imageUrl: "https://example.com/images/tokyo.jpg",
+        imageUrl: "/src/assets/Japan.jpg",
         famousActivities: [
             "Experience Shibuya Crossing",
             "Visit Senso-ji Temple",
@@ -50,7 +51,7 @@ const tripData = [
         id: 4,
         location: "New York City, USA",
         popularity: 9.4,
-        imageUrl: "https://example.com/images/nyc.jpg",
+        imageUrl: "/src/assets/USA.jpg",
         famousActivities: [
             "Visit the Statue of Liberty",
             "Explore Central Park",
@@ -139,12 +140,15 @@ const TripCard = ({ trip }) => (
 
 const TripCatalogue = () => {
     return (
+      <>
+        <h1>Travel Trip Catalogue</h1>
+
         <div className="catalogue">
-            <h1>Travel Trip Catalogue</h1>
             {tripData.map(trip => (
                 <TripCard key={trip.id} trip={trip} />
             ))}
         </div>
+      </>
     );
 };
 
