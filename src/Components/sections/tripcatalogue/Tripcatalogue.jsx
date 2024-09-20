@@ -8,7 +8,7 @@ const tripData = [
         id: 1,
         location: "Paris, France",
         popularity: 9.5,
-        imageUrl: "https://example.com/images/paris.jpg",
+        imageUrl: "/src/assets/Paris.jpeg",
         famousActivities: [
             "Visit the Eiffel Tower",
             "Explore the Louvre Museum",

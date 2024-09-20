@@ -34,7 +34,7 @@ function Footer() {
                             </ul>
                         </div>
 
-                        <div className='footer-links'>
+                        {/* <div className='footer-links'>
                             <h2 className='title'>CAREERS</h2>
                             <ul>
                                 <li>
@@ -44,7 +44,7 @@ function Footer() {
                                     <a href="" className="link">Recruitment Process</a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> */}
 
                         <div className='footer-links'>
                             <h2 className='title'>CONTACT US</h2>

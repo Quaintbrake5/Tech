@@ -11,6 +11,16 @@
     text-align: center;
 }
 
+.about-us h1:hover{
+    font-size: 60px;
+    transition: all ease-in-out 850ms;
+}
+
+.about-us h2:hover{
+    font-size: 50px;
+    transition: all ease-in-out 850ms;
+}
+
 .about-us p {
     line-height: 1.6;
     margin-bottom: 15px;

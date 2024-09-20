@@ -36,7 +36,7 @@ const Header = () => {
                   <div className='header-logo-wrapper'>
                     <div className='header-logo'>
                       <a className='logo' href='/'>
-                        <img className='tsmart' alt='Logo' src= '/src/assets/Logo.png'></img>
+                        <img className='tsmart' alt='Logo' src= '/src/assets/Logo.jpg'></img>
                       </a>
                     </div>
                   </div>
