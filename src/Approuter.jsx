@@ -6,8 +6,8 @@ import About from "./Components/sections/about/About";
 import Contact from "./Components/sections/contact/Contact";
 import Tripcatalogue from "./Components/sections/tripcatalogue/Tripcatalogue";
 import Tourreview from './Components/sections/tourreview/Tourreview'
-import Destination from "./Components/destination/destination";
-import Review from "./Components/Review/Review";
+// import Destination from "./Components/destination/destination";
+// import Review from "./Components/Review/Review";
 
 
 const Approuter = () => {
@@ -18,8 +18,6 @@ const Approuter = () => {
             <Routes>
                 <Route path="/">
                     <Route path="/" index element={<HeroSection/>}/>
-                    <Route path="/" index element={<Destination/>}/>
-                    <Route path="/" index element={<Review/>}/> 
                     <Route path="/about" element={<About/>}/>
                     <Route path="/contact" element={<Contact/>}/>
                     <Route path="/tripcatalogue" element={<Tripcatalogue/>}/>
