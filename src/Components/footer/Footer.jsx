@@ -164,8 +164,22 @@ function Footer() {
                                 </a>
                             </div>
                         </div>
+
+                        
                     </div>
                 </div>
+
+                <div className="legal">
+                    <div className="legal-list">
+                        <div className="legal-list-copyright">@ 2024 Code_Crafters</div>
+                        <div className="index-navbar">
+                            <span className="icon-chevron-down "></span>
+                            <br/>
+                            <span className="lang-label">English</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
     </>

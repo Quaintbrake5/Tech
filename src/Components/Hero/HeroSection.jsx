@@ -2,6 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import './hero.css'
+import { Link } from 'react-router-dom'
 
 const HeroSection = () => {
   return (
@@ -69,7 +70,49 @@ const HeroSection = () => {
                     </div>
                 </div>
             </div>
-        </section>
+    </section>
+
+    <section className='review'>
+      <div className='product-review' id='offer'>
+        <div className='review-page'>
+            <div className='review-image'>
+              <img src='/src/assets/Review.jpg'></img>
+            </div>
+
+            <div className='review-page-comp'>
+              <div className='review-page-comp-container'>
+                <div className='review-header'>
+                  <span>TESTED, TRUSTED, RECOMMENDED</span>
+                </div>
+
+                  {/* <div className='review-rating'>
+                      <svg className="stars-reviews__icon"><use xlinkHref="#stars-reviews"></use></svg>
+                  </div> */}
+
+                <div className='review-social'>
+                  <span>"Provides a seamless experience to plan your next trip!"</span>
+                </div>
+
+                <div className='review-text'>
+                  <span>Double Serum, the intensive anti-aging serum for all ages and skin types, formulated with 21 plant extracts.</span>
+                </div>
+
+                <br/>
+
+                <div className='review-proof'>
+                  <Link to= './tourreview' className='proof-button'>
+                    <button className='proof' >
+                        <span>See for yourself</span>
+                      </button>                 
+                  </Link>
+
+                </div>
+
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
     </>
   )
 }
