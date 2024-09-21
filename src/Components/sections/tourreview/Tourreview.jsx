@@ -41,7 +41,7 @@ function Tourreview() {
           <br />
           <h3 className="testimonial-name">Mark Thompson, Nature Lover</h3>
           <p className="testimonial-text">
-            "Using TravelSmart was a game changer for my recent trip to Costa Rica. The personalized itinerary allowed me to explore both popular sights and off-the-beaten-path locations. I loved every moment!"
+            "Using TravelSmart was a game changer for my recent trip to Machu Picchu. The personalized itinerary allowed me to explore both popular sights and off-the-beaten-path locations. I loved every moment!"
           </p>
         </div>
 

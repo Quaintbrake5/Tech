@@ -19,7 +19,7 @@ const Header = ({ onSearch }) => {
     const handleSearch = (event) => {
         const value = event.target.value;
         setSearchTerm(value);
-        onSearch(value); // Pass the search term to the parent
+        onSearch(value);
     };
 
     return (
@@ -27,18 +27,12 @@ const Header = ({ onSearch }) => {
             <section className='header-section'>
                 <div className='header'>
                     <div className='header-content'>
-                        <div className='hamburger' onClick={handleToggle}>
-                            {/* Hamburger icon can go here */}
-                        </div>
                         <ul className={`list ${isOpen ? 'active' : ''}`}>
-                            {/* Logo */}
                             <li className='header-logo-wrapper'>
                                 <Link to='/'>
                                     <img className='tsmart' alt='Logo' src='/src/assets/Logo.jpg' />
                                 </Link>
                             </li>
-
-                            {/* Search Box */}
                             <li className='search-box'>
                                 <form className='search-form' role='search' action=''>
                                     <input
@@ -58,19 +52,23 @@ const Header = ({ onSearch }) => {
                                     </button>
                                 </form>
                             </li>
-
                             <div className='right'>
-                                {/* Other links */}
                                 <li><Link to='/about'>About Us</Link></li>
                                 <li><Link to='/contact'>Contact Us</Link></li>
                                 <li><Link to='/tripcatalogue'>Trip Catalogue</Link></li>
                                 <li><Link to='/tourreview'>Tour Review</Link></li>
                             </div>
                         </ul>
+                        <div className='hamburger' onClick={handleToggle}>
+                            <div className={`hamburger-icon ${isOpen ? 'active' : ''}`}>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                {/* Hidden Menu */}
                 {isOpen && (
                     <div className='hidden-menu'>
                         <ul className='hidden-list'>
