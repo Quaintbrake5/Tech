@@ -26,6 +26,7 @@ const Feedback = () => {
                 <form onSubmit={handleSubmit}>
                     <div>
                         <label htmlFor="name">Name:</label>
+                        <br/>
                         <input
                             type="text"
                             id="name"
@@ -36,6 +37,7 @@ const Feedback = () => {
                     </div>
                     <div>
                         <label htmlFor="email">Email:</label>
+                        <br/>
                         <input
                             type="email"
                             id="email"
@@ -46,6 +48,7 @@ const Feedback = () => {
                     </div>
                     <div>
                         <label htmlFor="message">Message:</label>
+                        <br/>
                         <textarea
                             id="message"
                             value={message}
