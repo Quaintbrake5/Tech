@@ -8,6 +8,7 @@ const tripData = [
     {
         id: 1,
         location: "Paris, France",
+        country: "Europe",
         popularity: 9.5,
         imageUrl: "/src/assets/Paris.jpeg",
         famousActivities: [
@@ -22,6 +23,7 @@ const tripData = [
     {
         id: 2,
         location: "Bali, Indonesia",
+        country: "Asia",
         popularity: 9.0,
         imageUrl: "/src/assets/Bali.jpg",
         famousActivities: [
@@ -35,6 +37,7 @@ const tripData = [
     },
     {
         id: 3,
+        country: "Asia",
         location: "Tokyo, Japan",
         popularity: 9.3,
         imageUrl: "/src/assets/Japan.jpg",
@@ -49,6 +52,7 @@ const tripData = [
     },
     {
         id: 4,
+        country: "North America",
         location: "New York City, USA",
         popularity: 9.4,
         imageUrl: "/src/assets/USA.jpg",
@@ -64,6 +68,7 @@ const tripData = [
     {
         id: 5,
         location: "Rome, Italy",
+        country: "Europe",
         popularity: 9.2,
         imageUrl: "/src/assets/Rome.jpeg",
         famousActivities: [
@@ -77,6 +82,7 @@ const tripData = [
     },
     {
         id: 6,
+        country: "Africa",
         location: "Cape Town, South Africa",
         popularity: 8.7,
         imageUrl: "/src/assets/Cape Town.jpeg",
@@ -91,6 +97,7 @@ const tripData = [
     },
     {
         id: 7,
+        country: "Oceania",
         location: "Sydney, Australia",
         popularity: 8.9,
         imageUrl: "/src/assets/Sydney.jpg",
@@ -105,9 +112,10 @@ const tripData = [
     },
     {
         id: 8,
+        country: "South America",
         location: "Machu Picchu, Peru",
         popularity: 9.1,
-        imageUrl: "https://example.com/images/machu_picchu.jpg",
+        imageUrl: "/src/assets/Peru.jpg",
         famousActivities: [
             "Hike the Inca Trail",
             "Explore the ruins of Machu Picchu",

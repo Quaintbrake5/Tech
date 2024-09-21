@@ -43,17 +43,10 @@
     background-color: aqua;
 }  */
 
-.card{
-    background-color: white;
-    border-radius: 10px; /* Softer corners */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow for depth */
-    overflow: hidden;
-    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transitions */
-}
-
- .tile-image:hover{
+.tile-image:hover{
     transform: translateY(-5px); /* Slight lift effect on hover */
-    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.521); /* Enhanced shadow on hover */
+    border-radius: 7px;
 }
 
 .tile-image img{
@@ -104,7 +97,14 @@
     font-weight: 500;
 }
 
-.tile-header p:hover{
+.tile-header span:hover{
     text-decoration: none;
-    color: #ba0c2f;
+    color: tomato;
+    transition: all ease-in 3ms;
+}
+
+.destination-subheader:hover{
+    font-size: x-large;
+    transition: all ease-in-out 850ms;
+    color: tomato;
 }
