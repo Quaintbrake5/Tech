@@ -14,23 +14,15 @@ function Footer() {
                             <h2 className='title'>ABOUT US</h2>
                             <ul>
                                 <li>
-                                    <a href="" className="link">Our History</a>
+                                    <a href="" className="link">Our Mission</a>
                                 </li>
                                 <li>
-                                    <a href="" className="link">Corporate Profile</a>
+                                    <a href="" className="link">Our Vision</a>
                                 </li>
                                 <li>
-                                    <a href="" className="link">Board and Management Team</a>
+                                    <a href="" className="link">Meet the team Team</a>
                                 </li>
-                                <li>
-                                    <a href="" className="link">Corporate Philosophy</a>
-                                </li>
-                                <li>
-                                    <a href="" className="link">Our Awards</a>
-                                </li>
-                                <li>
-                                    <a href="" className="link">Our Businesses</a>
-                                </li>
+
                             </ul>
                         </div>
 
@@ -50,44 +42,58 @@ function Footer() {
                             <h2 className='title'>CONTACT US</h2>
                             <ul>
                                 <li>
-                                    <a href="" className="link">We Care</a>
+                                    <a href="" className="link">Call Us Now</a>
+                                </li>
+
+                                <li>
+                                    <a href="" className="link">Send an Email</a>
+                                </li>
+
+                                <li>
+                                    <a href="" className="link">Visit our offices</a>
                                 </li>
                             </ul>
                         </div>
 
                         <div className='footer-links'>
-                            <h2 className='title'>QUICK LINKS</h2>
+                            <h2 className='title'>Trip Catalogue</h2>
                             <ul>
                                 <li>
-                                    <a href="" className="link">Support Center</a>
+                                    <a>Trips to: </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="" className="link">North America</a>
                                 </li>
                                 <li>
-                                    <a href="" className="link">Download Center</a>
+                                    <a href="" className="link">South America</a>
+                                </li>
+
+                                <li>
+                                    <a href="" className="link">Africa</a>
+                                </li>
+
+                                <li>
+                                    <a href="" className="link">Asia</a>
+                                </li>
+
+                                <li>
+                                    <a href="" className="link">Europe</a>
+                                </li>
+
+                                <li>
+                                    <a href="" className="link">Oceania</a>
                                 </li>
                             </ul>
                         </div>
 
                         <div className='footer-links'>
-                            <h2 className='title'>PRODUCTS</h2>
+                            <h2 className='title'>Review</h2>
                             <ul>
                                 <li>
-                                    <a href="#" className="link">Overview</a>
+                                    <a className="link">What other's have said...</a>
                                 </li>
-                                <li>
-                                    <a href="#" className="link">Features</a>
-                                </li>
-                                <li>
-                                    <a href="#" className="link">Pricing</a>
-                                </li>
-                                <li>
-                                    <a href="#" className="link">Tutorials</a>
-                                </li>
-                                <li>
-                                    <a href="#" className="link">Media</a>
-                                </li>
-                                <li>
-                                    <a href="#" className="link">An Investor</a>
-                                </li>
+
                             </ul>
                         </div>
                         
