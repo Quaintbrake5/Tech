@@ -1,162 +1,51 @@
-/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
-import React from 'react';
+import React, { useState } from 'react';
+import Navigation from '/Users/DELL/Tech/src/Components/nav/Navigation'; // Adjust import as needed
+import tripData from '/Users/DELL/Tech/src/JSON/tripData.json'; // Adjust path accordingly
 import './Tripcatalogue.css'
 
-// Sample data
-const tripData = [
-    {
-        id: 1,
-        location: "Paris, France",
-        country: "Europe",
-        popularity: 9.5,
-        imageUrl: "/src/assets/Paris.jpeg",
-        famousActivities: [
-            "Visit the Eiffel Tower",
-            "Explore the Louvre Museum",
-            "Cruise along the Seine River",
-            "Enjoy a coffee at a Parisian café",
-            "Discover Montmartre and Sacré-Cœur"
-        ],
-        bestTransportation: "Metro"
-    },
-    {
-        id: 2,
-        location: "Bali, Indonesia",
-        country: "Asia",
-        popularity: 9.0,
-        imageUrl: "/src/assets/Bali.jpg",
-        famousActivities: [
-            "Relax on Kuta Beach",
-            "Visit the Ubud Monkey Forest",
-            "Explore the rice terraces",
-            "Take a cooking class",
-            "Enjoy a traditional Balinese dance performance"
-        ],
-        bestTransportation: "Scooter"
-    },
-    {
-        id: 3,
-        country: "Asia",
-        location: "Tokyo, Japan",
-        popularity: 9.3,
-        imageUrl: "/src/assets/Japan.jpg",
-        famousActivities: [
-            "Experience Shibuya Crossing",
-            "Visit Senso-ji Temple",
-            "Enjoy sushi at Tsukiji Market",
-            "Explore Akihabara for electronics and anime",
-            "Relax in Ueno Park"
-        ],
-        bestTransportation: "Train"
-    },
-    {
-        id: 4,
-        country: "North America",
-        location: "New York City, USA",
-        popularity: 9.4,
-        imageUrl: "/src/assets/USA.jpg",
-        famousActivities: [
-            "Visit the Statue of Liberty",
-            "Explore Central Park",
-            "See a Broadway show",
-            "Walk across the Brooklyn Bridge",
-            "Visit the Metropolitan Museum of Art"
-        ],
-        bestTransportation: "Subway"
-    },
-    {
-        id: 5,
-        location: "Rome, Italy",
-        country: "Europe",
-        popularity: 9.2,
-        imageUrl: "/src/assets/Rome.jpeg",
-        famousActivities: [
-            "Explore the Colosseum",
-            "Visit the Vatican and St. Peter's Basilica",
-            "Toss a coin in the Trevi Fountain",
-            "Enjoy authentic Italian pizza",
-            "Stroll through the historic streets of Trastevere"
-        ],
-        bestTransportation: "Walking"
-    },
-    {
-        id: 6,
-        country: "Africa",
-        location: "Cape Town, South Africa",
-        popularity: 8.7,
-        imageUrl: "/src/assets/Cape Town.jpeg",
-        famousActivities: [
-            "Visit Table Mountain",
-            "Explore the Cape of Good Hope",
-            "Tour the Robben Island Museum",
-            "Relax at Camps Bay Beach",
-            "Visit the V&A Waterfront"
-        ],
-        bestTransportation: "Car rental"
-    },
-    {
-        id: 7,
-        country: "Oceania",
-        location: "Sydney, Australia",
-        popularity: 8.9,
-        imageUrl: "/src/assets/Sydney.jpg",
-        famousActivities: [
-            "See the Sydney Opera House",
-            "Walk across the Sydney Harbour Bridge",
-            "Relax at Bondi Beach",
-            "Explore the Royal Botanic Garden",
-            "Visit Taronga Zoo"
-        ],
-        bestTransportation: "Ferry"
-    },
-    {
-        id: 8,
-        country: "South America",
-        location: "Machu Picchu, Peru",
-        popularity: 9.1,
-        imageUrl: "/src/assets/Peru.jpg",
-        famousActivities: [
-            "Hike the Inca Trail",
-            "Explore the ruins of Machu Picchu",
-            "Visit the Sacred Valley",
-            "Experience local culture in Cusco",
-            "Try traditional Peruvian cuisine"
-        ],
-        bestTransportation: "Train"
-    }
-];
-
-const TripCard = ({ trip }) => (
-    <div className="card">
-        <img src={trip.imageUrl} alt={trip.location} />
-        <div className="card-content">
-            <h2>{trip.location}</h2>
-            <p className="popularity">Popularity: {trip.popularity}</p>
-            <div className="activities">
-                <h3>Famous Activities:</h3>
-                <ul>
-                    {trip.famousActivities.map((activity, index) => (
-                        <li key={index}>{activity}</li>
-                    ))}
-                </ul>
-            </div>
-            <p className="transport">Best Transportation: {trip.bestTransportation}</p>
-        </div>
-    </div>
-);
-
 const TripCatalogue = () => {
-    return (
-      <>
-        <h1>Travel Trip Catalogue</h1>
+    const [searchTerm, setSearchTerm] = useState('');
 
-        <div className="catalogue">
-            {tripData.map(trip => (
-                <TripCard key={trip.id} trip={trip} />
-            ))}
+    const handleSearch = (term) => {
+        setSearchTerm(term);
+    };
+
+    const filteredTrips = tripData.filter(trip => {
+        const lowerCaseTerm = searchTerm.toLowerCase();
+        return (
+            trip.country.toLowerCase().includes(lowerCaseTerm) ||
+            trip.bestTransportation.toLowerCase().includes(lowerCaseTerm) ||
+            trip.famousActivities.some(activity => activity.toLowerCase().includes(lowerCaseTerm))
+        );
+    });
+
+    return (
+        <div>
+            <Navigation onSearch={handleSearch} />
+            <h1>Trip Catalogue</h1>
+            <div className="catalogue">
+                {filteredTrips.map(trip => (
+                    <div key={trip.id} className="card">
+                        <img src={trip.imageUrl} alt={trip.location} />
+                        <div className="card-content">
+                            <h2>{trip.location}</h2>
+                            <p>Country: {trip.country}</p>
+                            <p>Popularity: {trip.popularity}</p>
+                            <p>Best Transportation: {trip.bestTransportation}</p>
+                            <div className="activities">
+                                <h3>Famous Activities:</h3>
+                                <ul>
+                                    {trip.famousActivities.map(activity => (
+                                        <li key={activity}>{activity}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                ))}
+            </div>
         </div>
-      </>
     );
 };
 
