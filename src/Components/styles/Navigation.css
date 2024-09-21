@@ -268,4 +268,11 @@ ul.nav a:hover {
       padding: 10px 20px;
       text-align: center;
   }
+
+    .search-box {
+      margin-left: 0;
+  }
+
+  .search-box input {
+      width: calc(100% - 20px);
 }
