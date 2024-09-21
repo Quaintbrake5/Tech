@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 import React, { useState } from 'react';
-import Feedback from '../tourreview/feedback/Feedback';
-import './Tourreview.css';
+import Feedback from './Feedback';
+import './styles/Tourreview.css';
 
 function Tourreview() {
   const [showFeedback, setShowFeedback] = useState(false);

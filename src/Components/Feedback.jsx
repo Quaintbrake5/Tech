@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
-import './feedback.css';
+import './styles/feedback.css';
 
 const Feedback = () => {
     const [name, setName] = useState('');

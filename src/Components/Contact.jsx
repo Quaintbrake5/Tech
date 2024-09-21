@@ -1,4 +1,4 @@
-import './Contact.css'
+import './styles/Contact.css'
 import { FaSquarePhoneFlip } from "react-icons/fa6";
 import { MdMail } from "react-icons/md";
 import { PiBuildingOfficeThin } from "react-icons/pi";

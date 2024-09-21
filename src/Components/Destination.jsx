@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import './destination.css'
+import '../Components/styles/destination.css'
 
 const Destination = () => {
   return (

@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import './review.css'
+import './styles/review.css'
 
 const Review = () => {
   return (

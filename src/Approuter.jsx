@@ -1,11 +1,11 @@
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
-import Footer from "./Components/footer/Footer";
-import Navigation from './Components/nav/Navigation'
-import HeroSection from "./Components/Hero/HeroSection";
-import About from "./Components/sections/about/About";
-import Contact from "./Components/sections/contact/Contact";
-import Tripcatalogue from "./Components/sections/tripcatalogue/Tripcatalogue";
-import Tourreview from './Components/sections/tourreview/Tourreview'
+import Footer from "./Components/Footer";
+import Navigation from './Components/Navigation'
+import HeroSection from "./Components/HeroSection";
+import About from "./Components/About";
+import Contact from "./Components/Contact";
+import Tripcatalogue from "./Components/Tripcatalogue";
+import Tourreview from './Components/Tourreview'
 // import Destination from "./Components/destination/destination";
 // import Review from "./Components/Review/Review";
 

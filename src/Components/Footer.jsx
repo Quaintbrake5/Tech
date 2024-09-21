@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import '../footer/Footer.css'
+import './styles/Footer.css'
 
 function Footer() {
   return (

@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import './hero.css'
+import './styles/hero.css'
 import { Link } from 'react-router-dom'
 
 const HeroSection = () => {

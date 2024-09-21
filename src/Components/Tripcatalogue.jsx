@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
-import Navigation from '/Users/DELL/Tech/src/Components/nav/Navigation'; // Adjust import as needed
-import tripData from '/Users/DELL/Tech/src/JSON/tripData.json'; // Adjust path accordingly
-import './Tripcatalogue.css'
+import Navigation from './Navigation'; // Adjust import as needed
+import tripData from '../JSON/tripData.json'; // Adjust path accordingly
+import './styles/Tripcatalogue.css'
 
 const TripCatalogue = () => {
     const [searchTerm, setSearchTerm] = useState('');

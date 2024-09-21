@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import "../nav/Navigation.css";
+import "./styles/Navigation.css";
 
 const Header = ({ onSearch }) => {
     const [isOpen, setIsOpen] = useState(false);
