@@ -2,7 +2,7 @@
     {
         "id": 1,
         "location": "Paris, France",
-        "country": "Europe",
+        "continent": "Europe",
         "popularity": 9.5,
         "imageUrl": "/src/assets/Paris.jpeg",
         "famousActivities": [
@@ -17,7 +17,7 @@
     {
         "id": 2,
         "location": "Bali, Indonesia",
-        "country": "Asia",
+        "continent": "Asia",
         "popularity": 9.0,
         "imageUrl": "/src/assets/Bali.jpg",
         "famousActivities": [
@@ -31,7 +31,7 @@
     },
     {
         "id": 3,
-        "country": "Asia",
+        "continent": "Asia",
         "location": "Tokyo, Japan",
         "popularity": 9.3,
         "imageUrl": "/src/assets/Japan.jpg",
@@ -46,7 +46,7 @@
     },
     {
         "id": 4,
-        "country": "North America",
+        "continent": "North America",
         "location": "New York City, USA",
         "popularity": 9.4,
         "imageUrl": "/src/assets/USA.jpg",
@@ -62,7 +62,7 @@
     {
         "id": 5,
         "location": "Rome, Italy",
-        "country": "Europe",
+        "continent": "Europe",
         "popularity": 9.2,
         "imageUrl": "/src/assets/Rome.jpeg",
         "famousActivities": [
@@ -76,7 +76,7 @@
     },
     {
         "id": 6,
-        "country": "Africa",
+        "continent": "Africa",
         "location": "Cape Town, South Africa",
         "popularity": 8.7,
         "imageUrl": "/src/assets/Cape Town.jpeg",
@@ -91,7 +91,7 @@
     },
     {
         "id": 7,
-        "country": "Oceania",
+        "continent": "Oceania",
         "location": "Sydney, Australia",
         "popularity": 8.9,
         "imageUrl": "/src/assets/Sydney.jpg",
@@ -106,7 +106,7 @@
     },
     {
         "id": 8,
-        "country": "South America",
+        "continent": "South America",
         "location": "Machu Picchu, Peru",
         "popularity": 9.1,
         "imageUrl": "/src/assets/Peru.jpg",

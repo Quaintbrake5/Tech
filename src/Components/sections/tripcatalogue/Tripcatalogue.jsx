@@ -14,7 +14,7 @@ const TripCatalogue = () => {
     const filteredTrips = tripData.filter(trip => {
         const lowerCaseTerm = searchTerm.toLowerCase();
         return (
-            trip.country.toLowerCase().includes(lowerCaseTerm) ||
+            trip.continent.toLowerCase().includes(lowerCaseTerm) ||
             trip.bestTransportation.toLowerCase().includes(lowerCaseTerm) ||
             trip.famousActivities.some(activity => activity.toLowerCase().includes(lowerCaseTerm))
         );
@@ -30,7 +30,7 @@ const TripCatalogue = () => {
                         <img src={trip.imageUrl} alt={trip.location} />
                         <div className="card-content">
                             <h2>{trip.location}</h2>
-                            <p>Country: {trip.country}</p>
+                            <p>Continent: {trip.continent}</p>
                             <p>Popularity: {trip.popularity}</p>
                             <p>Best Transportation: {trip.bestTransportation}</p>
                             <div className="activities">

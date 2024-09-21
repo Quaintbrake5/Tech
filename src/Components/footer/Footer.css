@@ -1,7 +1,7 @@
 .footer {
     background-color: rgb(1, 64, 134);
-    padding: 3rem 1rem; 
-    margin-top: 100px;
+    padding: 1rem 1rem;
+    margin-top: 50px;
     color: #ffffff;
     height: auto;
     overflow: hidden;
@@ -18,13 +18,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px; 
+    gap: 100px; 
 }
 
 .footer-links {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
     align-items: center; 
 }
 
@@ -59,7 +59,7 @@
 
 .social-links {
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
     border: 1px solid rgba(255, 255, 255, .5);
     position: relative;
     margin-top: 1rem;
@@ -149,7 +149,7 @@
     color: #A2A2AD;
     font-size: 14px;
     line-height: 1;
-    margin: 30px 0 17%;
+    margin: 15px 0 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,7 +200,7 @@
 
 @media (max-width: 480px) {
     .footer-links-table {
-        gap: 20px; 
+        gap: 15px; 
     }
 
     .legal {

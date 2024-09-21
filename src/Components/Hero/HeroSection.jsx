@@ -94,7 +94,7 @@ const HeroSection = () => {
                 </div>
 
                 <div className='review-text'>
-                  <span>Double Serum, the intensive anti-aging serum for all ages and skin types, formulated with 21 plant extracts.</span>
+                  <span>TravelSmart, the best way to plan for all your exciting sojourns.</span>
                 </div>
 
                 <br/>
