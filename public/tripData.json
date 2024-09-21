@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "location": "Paris, France",
+        "country": "Europe",
+        "popularity": 9.5,
+        "imageUrl": "/src/assets/Paris.jpeg",
+        "famousActivities": [
+            "Visit the Eiffel Tower",
+            "Explore the Louvre Museum",
+            "Cruise along the Seine River",
+            "Enjoy a coffee at a Parisian café",
+            "Discover Montmartre and Sacré-Cœur"
+        ],
+        "bestTransportation": "Metro"
+    },
+    {
+        "id": 2,
+        "location": "Bali, Indonesia",
+        "country": "Asia",
+        "popularity": 9.0,
+        "imageUrl": "/src/assets/Bali.jpg",
+        "famousActivities": [
+            "Relax on Kuta Beach",
+            "Visit the Ubud Monkey Forest",
+            "Explore the rice terraces",
+            "Take a cooking class",
+            "Enjoy a traditional Balinese dance performance"
+        ],
+        "bestTransportation": "Scooter"
+    },
+    {
+        "id": 3,
+        "country": "Asia",
+        "location": "Tokyo, Japan",
+        "popularity": 9.3,
+        "imageUrl": "/src/assets/Japan.jpg",
+        "famousActivities": [
+            "Experience Shibuya Crossing",
+            "Visit Senso-ji Temple",
+            "Enjoy sushi at Tsukiji Market",
+            "Explore Akihabara for electronics and anime",
+            "Relax in Ueno Park"
+        ],
+        "bestTransportation": "Train"
+    },
+    {
+        "id": 4,
+        "country": "North America",
+        "location": "New York City, USA",
+        "popularity": 9.4,
+        "imageUrl": "/src/assets/USA.jpg",
+        "famousActivities": [
+            "Visit the Statue of Liberty",
+            "Explore Central Park",
+            "See a Broadway show",
+            "Walk across the Brooklyn Bridge",
+            "Visit the Metropolitan Museum of Art"
+        ],
+        "bestTransportation": "Subway"
+    },
+    {
+        "id": 5,
+        "location": "Rome, Italy",
+        "country": "Europe",
+        "popularity": 9.2,
+        "imageUrl": "/src/assets/Rome.jpeg",
+        "famousActivities": [
+            "Explore the Colosseum",
+            "Visit the Vatican and St. Peter's Basilica",
+            "Toss a coin in the Trevi Fountain",
+            "Enjoy authentic Italian pizza",
+            "Stroll through the historic streets of Trastevere"
+        ],
+        "bestTransportation": "Walking"
+    },
+    {
+        "id": 6,
+        "country": "Africa",
+        "location": "Cape Town, South Africa",
+        "popularity": 8.7,
+        "imageUrl": "/src/assets/Cape Town.jpeg",
+        "famousActivities": [
+            "Visit Table Mountain",
+            "Explore the Cape of Good Hope",
+            "Tour the Robben Island Museum",
+            "Relax at Camps Bay Beach",
+            "Visit the V&A Waterfront"
+        ],
+        "bestTransportation": "Car rental"
+    },
+    {
+        "id": 7,
+        "country": "Oceania",
+        "location": "Sydney, Australia",
+        "popularity": 8.9,
+        "imageUrl": "/src/assets/Sydney.jpg",
+        "famousActivities": [
+            "See the Sydney Opera House",
+            "Walk across the Sydney Harbour Bridge",
+            "Relax at Bondi Beach",
+            "Explore the Royal Botanic Garden",
+            "Visit Taronga Zoo"
+        ],
+        "bestTransportation": "Ferry"
+    },
+    {
+        "id": 8,
+        "country": "South America",
+        "location": "Machu Picchu, Peru",
+        "popularity": 9.1,
+        "imageUrl": "/src/assets/Peru.jpg",
+        "famousActivities": [
+            "Hike the Inca Trail",
+            "Explore the ruins of Machu Picchu",
+            "Visit the Sacred Valley",
+            "Experience local culture in Cusco",
+            "Try traditional Peruvian cuisine"
+        ],
+        "bestTransportation": "Train"
+    }
+]
