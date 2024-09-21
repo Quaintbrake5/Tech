@@ -36,7 +36,7 @@ const HeroSection = () => {
                                 </div>
 
                                 <div className='tile-header'>
-                                <span>Tokyo</span>
+                                <span>Shibuya, Japan</span>
                                 </div>
                             </a>
                         </div>
@@ -49,7 +49,7 @@ const HeroSection = () => {
                                 </div>
 
                                 <div className='tile-header'>
-                                    <span>New York</span>
+                                    <span>New York City, USA</span>
                                 </div>
                             </a>
                         </div>
@@ -62,7 +62,7 @@ const HeroSection = () => {
                                 </div>
 
                                 <div className='tile-header'>
-                                    <span>Agra</span>
+                                    <span>Agra, India</span>
                                 </div>
                             </a>
                         </div>
