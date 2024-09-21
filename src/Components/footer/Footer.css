@@ -70,7 +70,7 @@
     flex-wrap: wrap;
 }
 
-.social-links::before {
+/* .social-links::before {
     content: "";
     position: absolute;
     top: 0;
@@ -80,11 +80,12 @@
     width: 0;
     z-index: 1;
     transform: rotate(60deg);
-}
+} */
 
 .social-links .phones {
     align-items: center;
     display: flex;
+    padding-right: 50px;
 }
 
 .social-links .phones svg {
@@ -171,6 +172,22 @@
         align-items: center; 
         margin-top: 1rem; 
     }
+
+    .social-links .phones{
+        align-items: center;
+        margin-left: -30px;
+    }
+
+    .right-text{
+        margin-left: -10px;
+    }
+
+    .social-icons svg{
+        align-items: center;
+        width: 12px;
+        height: 12px;
+    }
+    
 
     .footer-container {
         padding: 0 1rem;
