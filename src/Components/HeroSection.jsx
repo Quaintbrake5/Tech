@@ -32,7 +32,7 @@ const HeroSection = () => {
                         <div className='tile-image'>
                             <a className='tile-link' href=''>
                                 <div>
-                                <img src='/src/assets/Shibuya crossing.jpg' alt='Tokyo, Japan'></img>
+                                <img src='/Shibuya crossing.jpg' alt='Tokyo, Japan'></img>
                                 </div>
 
                                 <div className='tile-header'>
@@ -45,7 +45,7 @@ const HeroSection = () => {
                         <div className='tile-image'>
                             <a className='tile-link' href=''>
                                 <div>
-                                    <img src='/src/assets/Times square.jpg' alt='New York, USA'></img>
+                                    <img src='/Times square.jpg' alt='New York, USA'></img>
                                 </div>
 
                                 <div className='tile-header'>
@@ -58,7 +58,7 @@ const HeroSection = () => {
                         <div className='tile-image'>
                             <a className='tile-link' href=''>
                                 <div>
-                                    <img src='/src/assets/Taj Mahal.jpg' alt='Agra, India'></img>
+                                    <img src='/Taj Mahal.jpg' alt='Agra, India'></img>
                                 </div>
 
                                 <div className='tile-header'>
@@ -76,7 +76,7 @@ const HeroSection = () => {
       <div className='product-review' id='offer'>
         <div className='review-page'>
             <div className='review-image'>
-              <img src='/src/assets/Review.jpg'></img>
+              <img src='/Review.jpg'></img>
             </div>
 
             <div className='review-page-comp'>

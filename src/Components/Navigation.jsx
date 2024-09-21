@@ -30,7 +30,7 @@ const Header = ({ onSearch }) => {
                         <ul className={`list ${isOpen ? 'active' : ''}`}>
                             <li className='header-logo-wrapper'>
                                 <Link to='/'>
-                                    <img className='tsmart' alt='Logo' src='/src/assets/Logo.jpg' />
+                                    <img className='tsmart' alt='Logo' src='/Logo.jpg' />
                                 </Link>
                             </li>
                             <li className='search-box'>

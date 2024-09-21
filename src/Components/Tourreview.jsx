@@ -20,7 +20,7 @@ function Tourreview() {
 
         <div className="testimonial">
           <div className="profile">
-            <img src='/src/assets/Emily.jpeg' alt="Emily" />
+            <img src='/Emily.jpeg' alt="Emily" />
           </div>
 
           <br />
@@ -35,7 +35,7 @@ function Tourreview() {
 
         <div className="testimonial">
           <div className="profile">
-            <img src='/src/assets/Mark.jpeg' alt="Mark" />
+            <img src='/Mark.jpeg' alt="Mark" />
           </div>
 
           <br />

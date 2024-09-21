@@ -4,7 +4,7 @@
         "location": "Paris, France",
         "continent": "Europe",
         "popularity": 9.5,
-        "imageUrl": "/src/assets/Paris.jpeg",
+        "imageUrl": "/Paris.jpeg",
         "famousActivities": [
             "Visit the Eiffel Tower",
             "Explore the Louvre Museum",
@@ -19,7 +19,7 @@
         "location": "Bali, Indonesia",
         "continent": "Asia",
         "popularity": 9.0,
-        "imageUrl": "/src/assets/Bali.jpg",
+        "imageUrl": "/Bali.jpg",
         "famousActivities": [
             "Relax on Kuta Beach",
             "Visit the Ubud Monkey Forest",
@@ -34,7 +34,7 @@
         "continent": "Asia",
         "location": "Tokyo, Japan",
         "popularity": 9.3,
-        "imageUrl": "/src/assets/Japan.jpg",
+        "imageUrl": "/Japan.jpg",
         "famousActivities": [
             "Experience Shibuya Crossing",
             "Visit Senso-ji Temple",
@@ -49,7 +49,7 @@
         "continent": "North America",
         "location": "New York City, USA",
         "popularity": 9.4,
-        "imageUrl": "/src/assets/USA.jpg",
+        "imageUrl": "/USA.jpg",
         "famousActivities": [
             "Visit the Statue of Liberty",
             "Explore Central Park",
@@ -64,7 +64,7 @@
         "location": "Rome, Italy",
         "continent": "Europe",
         "popularity": 9.2,
-        "imageUrl": "/src/assets/Rome.jpeg",
+        "imageUrl": "/Rome.jpeg",
         "famousActivities": [
             "Explore the Colosseum",
             "Visit the Vatican and St. Peter's Basilica",
@@ -79,7 +79,7 @@
         "continent": "Africa",
         "location": "Cape Town, South Africa",
         "popularity": 8.7,
-        "imageUrl": "/src/assets/Cape Town.jpeg",
+        "imageUrl": "/Cape Town.jpeg",
         "famousActivities": [
             "Visit Table Mountain",
             "Explore the Cape of Good Hope",
@@ -94,7 +94,7 @@
         "continent": "Oceania",
         "location": "Sydney, Australia",
         "popularity": 8.9,
-        "imageUrl": "/src/assets/Sydney.jpg",
+        "imageUrl": "/Sydney.jpg",
         "famousActivities": [
             "See the Sydney Opera House",
             "Walk across the Sydney Harbour Bridge",
@@ -109,7 +109,7 @@
         "continent": "South America",
         "location": "Machu Picchu, Peru",
         "popularity": 9.1,
-        "imageUrl": "/src/assets/Peru.jpg",
+        "imageUrl": "/Peru.jpg",
         "famousActivities": [
             "Hike the Inca Trail",
             "Explore the ruins of Machu Picchu",
