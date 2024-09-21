@@ -1,4 +1,3 @@
-// import './App.css'
 import Approuter from './Approuter'
 
 function App() {
@@ -7,7 +6,7 @@ function App() {
     <>
       <Approuter/>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

@@ -1,0 +1,103 @@
+h2 {
+    font-size: 60px;
+    margin-top: 180px;
+    text-align: center;
+    color: #004E79;
+}
+
+.contact_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact_container .box {
+    border: 1px solid whitesmoke;
+    width: 330px; 
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 15px; 
+    box-sizing: border-box; 
+}
+
+.contact_container .box:hover {
+    box-shadow: 1px 1px 1px 1px gainsboro;
+}
+
+.icon1, .icon2, .icon3 {
+    font-size: 70px;
+    margin-top: 10px;
+}
+
+.icon1 {
+    color: #A16642;
+}
+
+.icon2 {
+    color: #004E79;
+}
+
+.icon3 {
+    color: #A16642;
+}
+
+.info11, .info1 {
+    font-size: 20px;
+    color: #004E79;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.info1 {
+    margin-left: 0; 
+}
+
+.contact_info {
+    font-size: 15px;
+    color: #004E79;
+    font-weight: 500;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* Media Queries for Small Screens */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 40px;
+        margin-top: 120px;
+    }
+
+    .contact_container .box {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .icon1, .icon2, .icon3 {
+        font-size: 50px;
+    }
+
+    .info11, .info1 {
+        font-size: 18px;
+    }
+
+    .contact_info {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    .contact_container {
+        flex-direction: column; 
+        align-items: center;
+    }
+}
